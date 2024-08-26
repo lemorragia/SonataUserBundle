@@ -67,7 +67,7 @@ final class CheckEmailAction
             $this->tokenTtl = $tokenTtlDeprecated;
 
             @trigger_error(\sprintf(
-                'Passing an instance of %s as argument 2 to "%s()" is deprecated since sonata-project/user-bundle 5.x and will only accept an instance of %s in version 6.0.',
+                'Passing an instance of %s as argument 2 to "%s()" is deprecated since sonata-project/user-bundle 5.13 and will only accept an instance of %s in version 6.0.',
                 UrlGeneratorInterface::class,
                 __METHOD__,
                 Pool::class
